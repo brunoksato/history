@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>History1</title>
+</head>
+<body>
+	<div>
+		<hgroup>
+			<h1>History 1</h1>
+		</hgroup>
+	</div>
+</body>
+<script>
+;(function (){
+	var obj1 = {history1: "h1"};
+	obj1 !== undefined ? history.pushState(obj1, "history 1", "h1.html") : history.state;
+});
+</script>
+</html>
